@@ -1,0 +1,7 @@
+1. Get the livsvm from the homepage of Chih-Jen Lin.
+2. Using Matlab complies the Tools by running ./matlab/make.m.
+3. Adding the path of [libsvmread.mexw64, libsvmwrite.mexw64, svmtrain.mexw64, svmpredict.mexw64] into the path of matlab.
+   //OR---> Copying the four .mexw64 files into the working path.
+   //For avoiding the conflict between libsvm and matlab, one can modify 
+   //the name 'svmtrain.mexw64' as 'libsvmtrain.mexw64'
+   //the name 'svmpredict.mexw64' as 'libsvmpredict.mexw64'
